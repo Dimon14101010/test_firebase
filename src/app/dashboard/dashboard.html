@@ -1,0 +1,7 @@
+<div>
+  <h3>hello</h3>
+  <input type="text" #text>
+  <button (click)="addMesage(text.value)">push new data</button>
+</div>
+<div *ngFor="let blocks of data | async">
+</div>
